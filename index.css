@@ -5,6 +5,32 @@ body {
   flex-direction: column;
   align-items:center;
 }
+.header {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  border: 1px solid gray;
+  padding: 1%;
+  background-color: rgb(150, 200, 220);
+  box-shadow: 5px 5px 0px 0px;
+}
+
+.githublink {
+  position: absolute;
+  right: 5vw;
+  border: 1px solid black;
+  box-shadow: 5px 5px 0px 0px;
+  background-color: rgb(150, 200, 220);
+  padding: 10px;
+  font: bold min(30px, 2vw) Times;
+}
+
+.githublink:hover {
+  background-color: tomato;
+}
 
 ul {
   list-style-type: none;
@@ -17,6 +43,10 @@ ul li {
   padding: 8px 16px;
   border-bottom: 1px solid #ddd;
   background-color: MediumSeaGreen;
+}
+
+ul li:hover {
+  background-color: tomato;
 }
 
 ul li:last-child {
